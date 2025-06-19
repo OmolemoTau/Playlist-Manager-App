@@ -13,13 +13,11 @@ class DetailActivity : AppCompatActivity() {
         setContentView(R.layout.activity_detail)
 
         val playlist = arrayOf(
-            "Monday: Sunny, 24°C",
-            "Tuesday: Cloudy, 22°C",
-            "Wednesday: Rainy, 18°C",
-            "Thursday: Sunny, 25°C",
-            "Friday: Windy, 20°C",
-            "Saturday: Stormy, 17°C",
-            "Sunday: Clear, 23°C"
+            "Happy: Pharell Williams, 4,5",
+            "She Will: Drake, 3,6",
+            "Views: Drake, 3,4",
+            "Soweto Groove: Kelvin Momo, 4,2",
+
         )
 
         val tvDetails = findViewById<TextView>(R.id.tvDetails)
